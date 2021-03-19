@@ -1,5 +1,12 @@
 안드로이드 강의 프로젝트 과제<br>
-Tmap API를 사용함<br>
+Tmap API를 사용함<br><br>
+
+Tmap API에서 마커, 경로찾기등과 <br>
+Android에서 Recyclerview, searchview, navigation bar, onLocationChange등을 사용함 <br>
+
+맨위의 검색바는 강의실목록을 띄울수있고 검색이 가능 검색바 오른쪽버튼은 건물의 전체 평면도 예정이었으나 미구현<br>
+목적지를 선택하면 현위치부터 경로가 그려지고 마커가 표시되며, 목적지 근처일시 평면도 네비게이션바를 보여줌<br>
+오른쪽하단의 버튼은 맨위부터 목적지 강의실의 층 평면도, 두번째는 보고있는방향으로 지도 회전, 세번째는 현재위치로 지도 이동<br>
 <table border="1">
   <tr>
 <td><img src="https://user-images.githubusercontent.com/19682509/111782433-5be80300-88fc-11eb-9590-64a81716a5b0.jpg"></td>
