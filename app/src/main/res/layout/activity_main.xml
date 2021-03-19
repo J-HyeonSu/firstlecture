@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/drawer_layout"
+    tools:context="com.luvian.firstlecture.MainActivity">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_main"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayoutTmap"
+            android:orientation="vertical"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+            <SearchView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:queryHint="검색"
+                android:iconifiedByDefault="false"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:elevation="5dp"
+                android:background="@drawable/bg_round"
+                android:searchIcon="@drawable/noback_ping"
+
+                android:id="@+id/searchView"
+                />
+            <Button
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_margin="10dp"
+                android:id="@+id/mapButton"
+                android:background="@drawable/bg_mapbtn"
+                />
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                />
+
+
+        </LinearLayout>
+
+
+        <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/gpsButton"
+        android:background="@drawable/bg_gpsbtn"
+        />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_above="@id/gpsButton"
+            android:layout_alignParentRight="true"
+            android:id="@+id/comButton"
+            android:background="@drawable/bg_compbtn"
+            />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_above="@id/comButton"
+            android:layout_alignParentRight="true"
+            android:id="@+id/dismapButton"
+            android:background="@drawable/bg_dismapbtn"
+            android:visibility="invisible"
+            />
+
+
+
+
+    </RelativeLayout>
+    <include layout="@layout/activity_lectureroomlist"/>
+    <include layout="@layout/activity_nav_right"/>
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:id="@+id/drawerView"
+    android:fitsSystemWindows="true"
+    android:layout_marginEnd="-65dp"
+    android:layout_marginRight="-65dp"
+    android:clickable="true"
+
+    android:background="@color/white">
+
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/titleText"
+        android:text="민주관"
+    android:gravity="center_vertical"
+    android:textSize="30dp"
+    android:layout_margin="10dp"/>
+    <Spinner
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/floorSpinner"/>
+
+    <ImageView
+        android:id="@+id/floorImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</RelativeLayout>

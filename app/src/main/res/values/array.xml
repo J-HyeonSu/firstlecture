@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="minju">
+    <item>B1</item>
+    <item>1F</item>
+    <item>2F</item>
+    <item>3F</item>
+    <item>4F</item>
+</string-array>
+</resources>
