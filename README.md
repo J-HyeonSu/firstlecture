@@ -1,6 +1,6 @@
 안드로이드 강의 프로젝트 과제
 Tmap API를 사용함
-![1](https://user-images.githubusercontent.com/19682509/111780507-dadc3c00-88fa-11eb-9b9d-3014dba8d5c8.jpg)
+<img src="![1](https://user-images.githubusercontent.com/19682509/111780507-dadc3c00-88fa-11eb-9b9d-3014dba8d5c8.jpg)" width="40%" height="40%">
 ![2](https://user-images.githubusercontent.com/19682509/111780521-ddd72c80-88fa-11eb-80e4-7b51ac942231.jpg)
 ![3](https://user-images.githubusercontent.com/19682509/111780522-de6fc300-88fa-11eb-9682-2114ebc32164.jpg)
 ![4](https://user-images.githubusercontent.com/19682509/111780523-de6fc300-88fa-11eb-87f5-5f6c939eae1e.jpg)
