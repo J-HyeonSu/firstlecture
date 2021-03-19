@@ -13,8 +13,5 @@ Tmap API를 사용함<br>
 <td><img src="https://user-images.githubusercontent.com/19682509/111780530-e0398680-88fa-11eb-865b-7e86d05001b4.jpg"></td>
 <td><img src="https://user-images.githubusercontent.com/19682509/111780532-e0d21d00-88fa-11eb-8a4d-b4122c307276.jpg"></td>
 <td><img src="https://user-images.githubusercontent.com/19682509/111780535-e0d21d00-88fa-11eb-845b-d8c0f60a4e9b.jpg"></td>
-<td><img src="https://user-images.githubusercontent.com/19682509/111780537-e16ab380-88fa-11eb-95af-628253ac6d8b.jpg"></td></tr></table>
-<!-- <img src="https://user-images.githubusercontent.com/19682509/111780540-e16ab380-88fa-11eb-9d7b-d1002ca0249e.jpg" width="20%" height="20%"> -->
-
- </table>
-<!-- <img src="https://user-images.githubusercontent.com/19682509/111780540-e16ab380-88fa-11eb-9d7b-d1002ca0249e.jpg" width="20%" height="20%"> -->
+<td><img src="https://user-images.githubusercontent.com/19682509/111780540-e16ab380-88fa-11eb-9d7b-d1002ca0249e.jpg"></td></tr></table>
+<!-- <img src="https://user-images.githubusercontent.com/19682509/111780537-e16ab380-88fa-11eb-95af-628253ac6d8b.jpg" width="20%" height="20%"> -->
